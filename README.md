@@ -1,22 +1,18 @@
-# ⛏ Minecraft Inventory System — C++
+⛏ Minecraft Inventory System — C++
 
-A command-line inventory management system inspired by Minecraft, built with C++17 and clean OOP principles.
+A simple inventory system using OOPS concepts
 
----
 
-## Features
+Features
 
-| Feature | Status |
-|---|---|
-| 25-slot inventory capacity | ✅ |
-| 7 item types (Axe, Sword, Shovel, Bow, Dirt, Stone, Arrow) | ✅ |
-| Stackable consumables / blocks | ✅ |
-| Durability system (100 → 75 → 50 → 25 → 0 → broken) | ✅ |
-| Auto-remove broken tools | ✅ |
-| Capacity overflow protection | ✅ |
-| Full input validation | ✅ |
-| Visual durability bar | ✅ |
-| Factory design pattern | ✅ |
+| 25-slot inventory capacity |
+| 7 item types (Axe, Sword, Shovel, Bow, Dirt, Stone, Arrow) |
+| Stackable consumables / blocks |
+| Durability system (100 → 75 → 50 → 25 → 0 → broken) |
+| Auto-remove broken tools |
+| Capacity overflow protection |
+| Full input validation |
+| Visual durability bar |
 
 ---
 
@@ -31,9 +27,9 @@ InventorySystem/
 └── README.md
 ```
 
----
 
-## Build & Run
+
+Build & Run
 
 ```powershell
 # Compile (single command)
@@ -43,7 +39,7 @@ g++ -std=c++17 Item.cpp Inventory.cpp ItemFactory.cpp main.cpp -o InventorySyste
 .\InventorySystem.exe
 ```
 
----
+
 
 ## Item Rules
 
@@ -57,9 +53,9 @@ g++ -std=c++17 Item.cpp Inventory.cpp ItemFactory.cpp main.cpp -o InventorySyste
 | Dirt | Block | N/A | Yes (1 slot, any qty) |
 | Stone | Block | N/A | Yes (1 slot, any qty) |
 
----
 
-## Sample Session
+
+Sample Session
 
 ```
 ⛏  MINECRAFT INVENTORY SYSTEM  ⛏
@@ -87,9 +83,9 @@ g++ -std=c++17 Item.cpp Inventory.cpp ItemFactory.cpp main.cpp -o InventorySyste
     1. Axe      | Qty: 1   | Durability: 75/100  [#######---]
 ```
 
----
 
-## OOP Design
+
+OOP Design
 
 ```
 Item  (base class)
