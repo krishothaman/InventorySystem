@@ -5,14 +5,14 @@ A simple inventory system using OOPS concepts
 
 Features
 
-| 25-slot inventory capacity |
-| 7 item types (Axe, Sword, Shovel, Bow, Dirt, Stone, Arrow) |
-| Stackable consumables / blocks |
-| Durability system (100 → 75 → 50 → 25 → 0 → broken) |
-| Auto-remove broken tools |
-| Capacity overflow protection |
-| Full input validation |
-| Visual durability bar |
+25-slot inventory capacity
+7 item types: Axe, Sword, Shovel, Bow, Dirt, Stone, Arrow
+Stackable consumables and blocks
+Durability system: 100 → 75 → 50 → 25 → 0 → broken
+Automatic removal of broken tools
+Capacity overflow protection
+Full input validation
+Visual durability bar
 
 ---
 
